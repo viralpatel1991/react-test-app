@@ -1,0 +1,25 @@
+body {
+  overflow: hidden;
+  margin: 0;
+  &, button, input, select {
+    font-family: "StagSans";
+  }
+
+  .root-container {
+      position: relative;
+  }
+}
+
+#app {
+  width: 1024px;
+  height: 768px;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+
+  & > div, .container {
+    width: 100%;
+    height: 100%
+  }
+}
